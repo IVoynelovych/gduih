@@ -1,0 +1,2 @@
+var form=document.querySelector("form"),nameInputs=document.querySelectorAll(".name"),mail=document.querySelector(".mail");form.addEventListener("submit",(function(e){e.preventDefault();var t=!0;nameInputs.forEach((function(e){e.value.trim()&&/^[а-яА-ЯїЇіІєЄ\s\-']+$/.test(e.value)?e.classList.remove("invalid"):(e.classList.add("invalid"),t=!1)})),t&&(nameInputs.forEach((function(e){localStorage.setItem("name",e.value)})),localStorage.setItem("mail",mail.value),form.submit())}));
+//# sourceMappingURL=index.2303b6b7.js.map
