@@ -1,0 +1,74 @@
+<section class="reg" id="contacts">
+  <img src="pic/contacts-line.png" alt="" class="reg_lines">
+  <img src="pic/contacts-bg.png" alt=""  class="reg_bg">
+  <div class="reg_start">
+    <p class="reg_start_text">КОНТАКТИ</p>
+    <h2 class="reg_start_title">Привіт бета-учасникам<span>!</span></h2>
+    <p class="reg_start_disc">
+      Якщо у вас залишились питання або ви хочете взяти участь у
+      тестуванні,можете написати нам через зручну лінію зв’язку, або лишивши
+      повідомлення прямо тут
+    </p>
+    <ul class="reg_start_list">
+      <li class="reg_start_list_item">
+        <button type="button" class="reg_start_list_item_tg_btn">
+          Telegram
+          <svg class="reg_start_list_item_tg_svg">
+            <use href="pic/tg-icon.svg#tg"></use>
+          </svg>
+        </button>
+      </li>
+      <li class="reg_start_list_item">
+        <button type="button" class="reg_start_list_item_google_btn">
+          Gmail
+          <svg class="reg_start_list_item_google_svg">
+            <use href="pic/google.svg#google"></use>
+          </svg>
+        </button>
+      </li>
+    </ul>
+    <p class="reg_start_alt">АБО</p>
+  </div>
+  <div class="reg_form_cont">
+    <form action="" class="form">
+      <div class="reg_form_info">
+        <label class="reg_form">
+          <p class="reg_form_text">Як до вас звертатись?</p>
+          <input
+            type="text"
+            class="reg_form_name_input name"
+            placeholder="Ілон Макс"
+            pattern="^[а-яА-ЯщЩіІїЇ\s\-']+$"
+            required
+            minlength="1"
+            
+          />
+        </label>
+        <label class="reg_form">
+          <p class="reg_form_text">Як з вами зв’язатись?</p>
+          <input
+            type="text"
+            class="reg_form_name_input mail"
+            placeholder="Вкажіть свій телеграм, пошту, тощо..."
+            required
+            minlength="1"
+          />
+        </label>
+      </div>
+      <div class="reg_form">
+        <p class="reg_form_text">Ваше повідомлення</p>
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="2"
+          class="reg_form_masege_input"
+          placeholder="Лишіть поле пустим, якщо ви хочете прийняти участь у бета тестуванні, або спробувати першим переваги нашої платформи"
+        ></textarea>
+      </div>
+      <button type="submit" class="reg_form_btn">
+        Відправити повідомлення
+      </button>
+    </form>
+  </div>
+</section>
