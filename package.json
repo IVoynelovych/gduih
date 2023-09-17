@@ -1,21 +1,21 @@
 {
-  "name": "par",
+  "name": "parcel-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://IVoynelovych.github.io/par",
+  "homepage": "https://IVoynelovych.github.io/parcel-template",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /par/"
+    "build": "parcel build src/*.html --public-url /parcel-template/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/IVoynelovych/par.git"
+    "url": "git+https://github.com/IVoynelovych/parcel-template.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/IVoynelovych/par/issues"
+    "url": "https://github.com/IVoynelovych/parcel-template/issues"
   },
   "dependencies": {
     "modern-normalize": "^1.1.0"
