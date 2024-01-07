@@ -1,2 +1,0 @@
-var timeout,close,isUserActive=!0;function closeIfAn(){isUserActive||window.close(),close=setTimeout(closeIfAn,7e4)}function checkUserActivity(){if(!isUserActive)confirm("Ви ще тут?");isUserActive=!1,timeout=setTimeout(checkUserActivity,6e4)}closeIfAn(),checkUserActivity(),document.addEventListener("mousemove",(function(){isUserActive=!0})),document.addEventListener("keydown",(function(){isUserActive=!0})),document.addEventListener("scroll",(function(){isUserActive=!0}));
-//# sourceMappingURL=index.68dbd50f.js.map
